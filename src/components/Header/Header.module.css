@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #9F000F  ;
+  
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      display: block;
+    }
+  }
+
+.heading{
+  color: white;
+}

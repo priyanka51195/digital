@@ -1,0 +1,76 @@
+.continer{
+    font-size: 12px;
+    position: fixed;
+    box-sizing: border-box;
+}
+
+.bottom-center{
+    animation: toast-in-buttom .7s !important;
+    bottom: 0px;
+   
+}
+
+.notification{
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 0 10px #9999;
+  color: black;
+  opacity: 0.9;
+  margin-left: 35%;
+  margin-right: 35%;
+  
+}
+
+.notification:hover{
+    box-shadow: 0 0 12px #fff;
+}
+
+.toast-position {
+    height: 30px;
+    width: 40px;
+    color: black;
+    padding: 10px 15px 10px 10px;
+}
+
+.continer button{
+    float: right;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button{
+    float: right;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.smallconatiner{
+    display: flex;
+}
+
+.title{
+    display: contents;
+    font-weight: 700;
+    font-size: 16px;
+    align-items: left;
+    height: 30px !important;
+    width: 30px;
+    margin: 20px !important;
+}
+
+.time{ 
+    margin: 10px;
+    margin-left: 10px;
+}
+@keyframes toast-in-buttom {
+    from{
+      transform: translateY(100%)
+    }
+    to{
+        transform: translateY(0)
+    }
+}

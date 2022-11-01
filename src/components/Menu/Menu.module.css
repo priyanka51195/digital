@@ -1,0 +1,50 @@
+.applink {
+    text-decoration: none;
+   color: white;
+  }
+  
+  .listyle{
+    list-style-type: none;
+    width: 200px;
+    padding: 5px;
+    color: white;
+
+    
+  }
+  .ulstyle{
+    display: flex;
+  }
+
+  .center{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+ 
+   
+  }
+
+  .input{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+   
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .pag{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+  }
+  .pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
